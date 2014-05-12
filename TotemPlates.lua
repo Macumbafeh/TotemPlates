@@ -1,5 +1,5 @@
 local AddOn = "TotemPlates"
-
+DEFAULT_CHAT_FRAME:AddMessage(select (3, GetSpellInfo(8166)))
 local Table = {
 	["Nameplates"] = {},
 	["Totems"] = {
@@ -55,7 +55,7 @@ local Table = {
 		["Nature Resistance Totem IV"] = true,
 		["Nature Resistance Totem V"] = true,
 		["Nature Resistance Totem V"] = true,
-		["Poison Cleansing Totem VI"] = true,
+		["Poison Cleansing Totem"] = true,
 		["Searing Totem"] = true,
 		["Searing Totem II"] = true,
 		["Searing Totem III"] = true,
